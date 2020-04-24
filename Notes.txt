@@ -1,14 +1,16 @@
-Decision tree and random forest:
-Some say it's machine learning and some say it's rule based modelling
-Decision tree works on greedy algorithm
-Continous variables we will be discretizing to discrete data
-How we discrete data that is continous: We will plot a histogram and then take non uniform bin data into categories.
-If the data is granular, the classification model is better.
-The nodes which doesn't need further split are called leaf nodes.
-Decision tree is a classification algorithm
-No of leafs = no of rules
-Entropy - is a measure of disorder or randomness
-More unpredictable = More randomness = More entropy
-Information gain shoud be high.
-And that corresponding col which has higher info gain will be choosen first.
-The whole objective of doing this classification is to have less rules. For this to be done, we need to choose the column that we start the split wisely and the measure for choosing is info gain. Info gain is nothing but entropy of output col - entropy of selected col. If this measure is high, then we should start split with this column.
+Decision tree:
+python code: Figure is the one that we can't see in python
+Ensemble methods:
+Feature engineering and boosting algorthms
+
+Random forest:
+Take the analogy of asking friend which movie to watch
+Best friend - Will give very personal suggestions - Decision tree
+Friends group - will give you a generic response - majority of decisions you will go with that movie - Random forest.
+
+OOB: Out of box sampling method.
+Just like dummy variable in regressions we have label encoder
+Effective for missing values.
+
+
+Ensemble techniques:
